@@ -1,0 +1,11 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule    ^about-tread-setters-tires/?$    about.php    [NC,L]
+RewriteRule    ^contact-tread-setters-tires/?$    contact.php    [NC,L]
+RewriteRule    ^knowledge/?$    knowledge.php    [NC,L]
+RewriteRule    ^schedule-an-appointment/?$    appointment.php    [NC,L]
+RewriteRule    ^scrap-tire-hauling/?$    scrap-tire-hauling.php    [NC,L]
+RewriteRule    ^tire-balancing/?$    content.php    [NC,L]
+RewriteRule    ^tire-mounting/?$    content.php    [NC,L]
+RewriteRule    ^tire-recycling/?$    tire-recycling.php    [NC,L]
+RewriteRule    ^tire-repair/?$    tire-repair.php    [NC,L]
+RewriteRule    ^why-tread-setters-tires/?$    why.php    [NC,L]

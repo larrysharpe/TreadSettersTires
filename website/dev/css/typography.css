@@ -1,0 +1,70 @@
+/*
+Reset
+*/
+a {
+    color: #ec6b25;
+    text-decoration: none;
+}
+
+nav.primary a, nav.secondary a {
+    color: #000;
+}
+
+h1 {
+    font: italic lighter 3em/1.5em Arial;
+    color: #ec6b25;
+}
+
+p {
+    font: lighter 1.7em/1.8em Arial;
+}
+
+/*
+Global
+*/
+.txt-sm {
+    font-size: 8px;
+}
+
+.txt-l {
+    font-size: 20px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+/*
+Contact Form
+*/
+.contact-form input[type="text"], .contact-form textarea, .contact-form select {
+    font: 2.5em solid arial;
+    padding: 3px 1%;
+    margin: 3px 0;
+}
+
+.contact-form input[type="text"]:first-child, .contact-form textarea:first-child {
+    margin-right: 1%;
+    margin-left: 0;
+}
+
+.contact-form input[type="text"]:last-child, .contact-form textarea:last-child {
+    margin-right: 0;
+    margin-left: 1%;
+}
+
+
+.contact-form input[type="text"]:only-child, .contact-form textarea:only-child {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.contact-form textarea:only-child {
+    width: 100%;
+}
+
+

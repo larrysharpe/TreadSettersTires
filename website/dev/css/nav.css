@@ -1,0 +1,56 @@
+/*
+Generic
+*/
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px 0;
+}
+ul.horizontal:after, .clear:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+ul.horizontal > li {
+    float: left;
+    padding: 0 1%;
+}
+ul.horizontal > li.right {
+    float: right;
+}
+ul.horizontal > li:first-child {
+    padding-left: 0;
+}
+ul.horizontal > li:last-child {
+    padding-right: 0;
+}
+
+/*
+Primary Nav
+*/
+nav.primary a {
+    color: #000;
+    display: block;
+    font: bold italic 30px arial;
+    letter-spacing: -2px;
+    padding: 0;
+}
+nav.primary li:not(:last-child) {
+    border-right: 1px #999 solid;
+}
+nav.primary a.icon {
+    display: inline;
+}
+
+/*
+Secondary Nav
+*/
+nav.secondary {
+    font: bold 1.2em/1.5em arial;
+}
+
+.contact-bar > li:not(:last-child) {
+    border-right: 1px #fff solid;
+}

@@ -1,0 +1,104 @@
+body,
+html {
+    font: 12px arial;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-bar {
+    font: bold italic 1.85em/1.5em Arial;
+}
+
+.logo-bar {
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+
+
+.palette-highlight {
+    background: #ec6b25;
+    color: #fff;
+}
+
+.palette-highlight a {
+    color: #fff;
+}
+
+.phone-number-block {
+    display: inline-block;
+    margin: 4px 3px 0 0;
+    font-size: 20px;
+    text-align: right;
+}
+
+.medium-only .primary a {
+    line-height: 54px;
+    height: 54px;
+    display: block;
+}
+
+.ad1 {
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.ad1 img {
+    width: 100%;
+}
+
+.ad1 .caption {
+    bottom: 5px;
+    position: absolute;
+    text-align: center;
+    font: bold italic 24px arial;
+    letter-spacing: -2px;
+    width: 100%;
+}
+
+.legal-bar {
+    line-height: 25px;
+}
+
+.orange-block {
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+}
+
+.mobile-secondary a {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+ul.mobile-secondary {
+    margin: 5px;
+}
+
+.width-container {
+    margin: auto;
+    max-width: 920px;
+}
+
+
+@media (max-width: 599px) {
+    .width-container {
+        width: 320px;
+    }
+
+    .medium-only {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .small-only {
+        display: none;
+    }
+}
