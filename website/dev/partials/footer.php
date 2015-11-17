@@ -7,5 +7,12 @@
   </footer>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="/scripts/scripts.js"></script>
+<?php
+    for($i = 0; $i < count($scripts); $i++){
+?>
+  <script src="/scripts/<?=$scripts[$i];?>.js"></script>
+<?php
+    }
+?>
 </body>
 </html>

@@ -1,3 +1,5 @@
+<?php require 'inc/startup.php';?>
+
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -20,14 +22,22 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">Get Tires <img src="img/link-arrow.png"> </a>
+                            <a href="/buy-used-tires">Used Tires<img src="img/link-arrow.png"> </a>
                         </li>
                         <li>
-                            <a href="/schedule-an-appointment">Schedule Appointment <img src="img/link-arrow.png"> </a>
+                            <a href="/buy-new-tires">New Tires<img src="img/link-arrow.png"> </a>
                         </li>
                         <li>
-                            <a href="">Deals <img src="img/link-arrow.png"> </a>
+                            <a href="/buy-rims">Rims<img src="img/link-arrow.png"> </a>
                         </li>
+                        <li>
+                            <a href="/schedule-an-appointment">Appointments<img src="img/link-arrow.png"> </a>
+                        </li>
+                        <!--
+                        <li>
+                            <a href="/tread-setters-deals">Deals <img src="img/link-arrow.png"> </a>
+                        </li>
+                        --!>
                         <!--
                         <li>
                             <a href="http://facebook.com/treadsettersllc" target="_blank" class="icon">

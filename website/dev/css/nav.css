@@ -1,6 +1,12 @@
 /*
 Generic
 */
+.unstyled {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 ul.horizontal {
     list-style-type: none;
     margin: 0;
@@ -48,9 +54,14 @@ nav.primary a.icon {
 Secondary Nav
 */
 nav.secondary {
-    font: bold 1.2em/1.5em arial;
+    font: bold 1.2em/1.5 arial;
 }
 
 .contact-bar > li:not(:last-child) {
     border-right: 1px #fff solid;
+}
+
+
+@media only screen and (max-width : 768px){
+
 }

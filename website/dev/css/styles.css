@@ -5,6 +5,14 @@ html {
     padding: 0;
 }
 
+.hidden {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
 .contact-bar {
     font: bold italic 1.85em/1.5em Arial;
 }
@@ -101,4 +109,9 @@ ul.mobile-secondary {
     .small-only {
         display: none;
     }
+}
+
+
+.show-services ul input[type="checkbox"] {
+
 }

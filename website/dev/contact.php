@@ -1,7 +1,7 @@
 <?php require 'partials/header.php';?>
     <section class="width-container">
         <h1>Contact Tread Setters Tires</h1>
-        <form>
+        <form method="post" action="/submit-contact">
             <h2>Submit a question or comment</h2>
             <p>
                 Many common questions are answered on our
@@ -21,6 +21,7 @@
                     <input type="text" placeholder="Zip Code" name="zip">
                 </div>
                 <div>
+                    Subject:
                     <select name="about">
                         <option></option>
                         <option>New Tires</option>
@@ -32,7 +33,7 @@
                     <textarea name="comments" placeholder="Question/Comments"></textarea>
                 </div>
                 <div>
-                    <input type="submit" value="Send">
+                    <input type="submit" name="submitted" value="Send">
                 </div>
             </div>
         </form>
