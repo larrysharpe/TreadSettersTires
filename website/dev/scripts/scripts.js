@@ -40,12 +40,16 @@ var getOpen = function () {
         || (day === 6 && time >= hours.saturday.open && time < hours.saturday.close )
     ) {
         msg = 'Open Now!';
+    } else if( day < 5 && time < hours.weekdays.open) {
+        msg = 'Open Today At ' + hours.weekdays.open + 'A.M.!';
     } else if( day < 5 ) {
-        msg = 'Open Tomorrow at ' + hours.weekdays.open + 'A.M.!';
+        msg = 'Open Tomorrow At ' + hours.weekdays.open + 'A.M.!';
+    } else if( day === 5 && time < hours.saturday.open) {
+        msg = 'Open Today At ' + hours.saturday.open + 'A.M.!';
     } else if( day === 5) {
-        msg = 'Open Tomorrow at ' + hours.saturday.open + 'A.M.!';
+        msg = 'Open Tomorrow At ' + hours.saturday.open + 'A.M.!';
     } else {
-        msg = 'Open Monday at ' + hours.weekdays.open + 'A.M.!';
+        msg = 'Open Monday At ' + hours.weekdays.open + 'A.M.!';
     }
 
     return msg;

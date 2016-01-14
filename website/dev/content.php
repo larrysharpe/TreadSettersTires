@@ -6,11 +6,13 @@ $content = array(
 
 '/tire-balancing' => '<section class="width-container">
                         <h1>Tire Balancing</h1>
-                          <p>'. $lorem .'</p>
+                          <p>Balancing your wheels is a cost effective way to promote safety, reduce tire wear and increase fuel efficiency.</p>
+                          <p>Unbalanced tires can lead to uneven wear, vibration, and potentially unsafe driving conditions.</p>
+                          <p>Day-to-day tire treadwear causes changes in the distribution of weight around the tire and wheel assembly. Balancing your wheels minimizes potential vibration felt in the steering wheel, seat, or floorboard and aids in proper tire treadwear. Getting your wheels balanced can result in a smoother ride and Reduced tire wear.</p>
                       </section>',
 '/tire-mounting' => '<section class="width-container">
                         <h1>Tire Mounting</h1>
-                          <p>'. $lorem .'</p>
+                          <p>Is it time to swap out your tires? Bring them with you, or buy them from us—it’s ok either way! The trained experts at Tread Setters will make sure they’re mounted safely.</p>
                       </section>',
 '/tire-recycling' => '<section class="width-container">
                                <h1>Tire Recycling</h1>
@@ -24,7 +26,9 @@ $content = array(
                            </section>',
 '/tire-repair' => '<section class="width-container">
                            <h1>Tire Repair</h1>
-                           <p>'.$lorem.'</p>
+                           <p>Flat tires are an unfortunate fact of life. Whether it is a slow leak, a leaky valve stem or a tire puncture, Tread Setters has what you need to get safely on the road again.</p>
+                           <p>If you are driving on a tire that continuously loses air or has a puncture, it is very important to your safety to have it inspected immediately. A service professional should inspect the tire inside and out to determine whether it can be repaired or needs to be replaced.</p>
+
                        </section>',
 '/scrap-tire-hauling' => '    <section class="width-container">
                 <h1>Scrap Tire Hauling</h1>

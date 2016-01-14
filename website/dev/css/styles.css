@@ -13,6 +13,9 @@ html {
     visibility: hidden;
 }
 
+.left { float:left; }
+.right { float: right; }
+
 .contact-bar {
     font: bold italic 1.85em/1.5em Arial;
 }
@@ -21,9 +24,6 @@ html {
     padding: 5px 0;
     text-align: center;
 }
-
-
-
 
 .palette-highlight {
     background: #ec6b25;
@@ -41,20 +41,17 @@ html {
     text-align: right;
 }
 
-.medium-only .primary a {
-    line-height: 54px;
-    height: 54px;
-    display: block;
-}
-
 .ad1 {
-    border-bottom: 1px solid #999;
-    border-top: 1px solid #999;
     position: relative;
     padding-bottom: 20px;
 }
+.ad1 .img {
+    width: 60%;
+    padding-right: 5%;
+    float: left;
+}
 
-.ad1 img {
+.ad1 .img img {
     width: 100%;
 }
 
@@ -64,7 +61,8 @@ html {
     text-align: center;
     font: bold italic 24px arial;
     letter-spacing: -2px;
-    width: 100%;
+    width: 30%;
+    float: right
 }
 
 .legal-bar {
@@ -77,16 +75,42 @@ html {
     width: 170px;
 }
 
-.mobile-secondary a {
-    display: inline-block;
-    float: left;
-    height: 40px;
-    line-height: 40px;
+.splash {
+    color: #ffffff;
 }
 
+.splash a {
+    color: #ffffff;
+}
 
-ul.mobile-secondary {
-    margin: 5px;
+.splash > ul {
+    float:left;
+    width: 30%;
+}
+
+.splash > ul > li {
+    background: #ec6b25;
+    padding:10px 2.5%;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.splash p {
+    font: inherit;
+    margin-bottom: 3px;
+}
+
+.splash a {
+    text-decoration: underline;
+}
+
+.splash .right {
+    width: 70%;
+}
+
+.mini-link {
+    font: lighter italic .75em arial;
 }
 
 .width-container {
@@ -99,19 +123,21 @@ ul.mobile-secondary {
     .width-container {
         width: 320px;
     }
-
-    .medium-only {
-        display: none;
-    }
-}
-
-@media (min-width: 600px) {
-    .small-only {
+    .show-med,.show-med-only {
         display: none;
     }
 }
 
 
-.show-services ul input[type="checkbox"] {
-
+@media (max-width: 959px) {
+    .show-lg, .show-lg-only {
+        display: none;
+    }
 }
+
+@media (min-width: 960px) {
+    .show-med-only {
+        display: none;
+    }
+}
+

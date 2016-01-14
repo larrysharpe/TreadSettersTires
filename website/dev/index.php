@@ -2,35 +2,27 @@
     require 'partials/header.php';
 ?>
     <section class="width-container">
-        <div class="ad1">
-            <img src="img/tires-bg.png">
-            <div class="caption">
-                <a href="">
-                    Petersburg’s  Premier New and Quality Used Tire Shop
-                </a>
+        <div class="clear splash">
+            <ul class="unstyled left">
+                <li>
+                    <p><i>Petersburg’s Premier New and Quality Used Tire Shop</i></p>
+                </li>
+
+                <li>
+                    <p><i>Used Tires Just $25!</i></p>
+                    <span class="mini-link"><a href="/contact-tread-setters-tires?s=2">Contact Us</a> To Buy Used Tires</span>
+                </li>
+
+                <li>
+                    <p><i>New Tires Between $65 and $85!</i></p>
+                    <span class="mini-link"><a href="/contact-tread-setters-tires?s=1">Contact Us</a> To Buy New Tires</span>
+                </li>
+            </ul>
+            <div class="right">
+                <img src="img/tires-bg.png">
             </div>
         </div>
     </section>
-    <div class="width-container">
-        <ul class="mobile-secondary horizontal">
-            <li><a href="" class="orange-block palette-highlight">
-                $20 Tires Here
-            </a></li>
-
-            <li><a href="http://facebook.com/treadsettersllc" target="_blank">
-                <img src="img/icon-facebook.png">
-            </a></li>
-
-            <li><a href="" target="_blank">
-                <img src="img/icon-twitter.png">
-            </a></li>
-
-            <li><a href="http://instagram.com/" target="_blank">
-                <img src="img/icon-instagram.png">
-            </a></li>
-        </ul>
-    </div>
-
 <?php
     require 'partials/footer.php';
 ?>
